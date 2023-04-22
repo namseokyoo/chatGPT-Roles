@@ -1,9 +1,10 @@
 
-# Project name
-chatGPT-Roles, 크롬 확장프로그램
+# ChatGPT-Roles
+chatGPT-Roles, Chrome, Edge 확장프로그램
 
 # Description
 * ChatGPT를 사용할때 처음에 역할을 자세히 정해주고 사용하면 조금더 원하는 대답을 듣기가 좋으나, 매번 새로 써야하는 불편함을 없애고자 만든 크롬 확장프로그램
+* 사용자가 자주 사용하는 GPT의 역할을 미리 저장해놓고 사용!
 
 # Feature
 1. popup Page
