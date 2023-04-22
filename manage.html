@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="manage.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>역할 관리</h1>
+        <form id="addRoleForm">
+            <label for="roleName">역할 이름</label>
+            <input type="text" id="roleName" placeholder="역할 이름" required>
+
+            <label for="roleText">역할 설명</label>
+            <input type="text" id="roleText" placeholder="역할 설명" required>
+
+            <button type="submit">역할 추가</button>
+        </form>
+
+        <div id="rolesList"></div>
+
+        <div id="deleteAllRolesButtonWrapper">
+            <button id="deleteAllRolesButton">모든 역할 삭제</button>
+        </div>
+    </div>
+    <footer>
+        <a href="https://chatgpt-roles.canny.io/feature-requests" target="_blank">커뮤니티 및 의견 보내기</a>
+    </footer>
+    <script src="manage.js"></script>
+</body>
+
+</html>
